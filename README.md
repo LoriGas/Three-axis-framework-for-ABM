@@ -2,11 +2,11 @@
 
 This repository contains the simulation code, benchmark pipelines, analysis notebooks, and experimental results associated with a three-axis framework for comparing decision-making strategies in agent-based models (ABMs).
 
-The framework separates agent design along three dimensions:
+The framework locates each experimental configuration along three categorical dimensions:
 
-1. **Policy family** — random, rule-based, multilayer perceptron (MLP), or large language model (LLM).
-2. **Policy origin** — fixed parameters, random initialization, offline behavioural cloning, or an externally supplied LLM policy.
-3. **Adaptation mechanism** — fixed inheritance, random offspring, evolutionary mutation, or online learning.
+1. **Decision-making architecture** — random, rule-based, trainable model, or large language model (LLM).
+2. **Behavioural initialisation** — fixed, random sampled, or offline learned.
+3. **Behavioural change mechanism** — no change, random resampling, evolution, or online learning.
 
 Agents inhabit a spatial resource environment in which they move, harvest food, consume energy, reproduce, and die. The experiments compare survival and behavioural outcomes across five environmental regimes.
 
