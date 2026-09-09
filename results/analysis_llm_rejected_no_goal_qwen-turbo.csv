@@ -1,0 +1,2 @@
+scenario,episode,attempt,steps_completed,decisions_before_rejection,technical_failures,errors
+S5,0,0,1,50,50,"[""<urlopen error [Errno 8] nodename nor servname provided, or not known>""]"

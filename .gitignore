@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pth
+*.tmp
+*.log
