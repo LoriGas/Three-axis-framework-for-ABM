@@ -15,7 +15,8 @@ your Model Studio workspace, for example::
     QWEN_BASE_URL=https://WORKSPACE_ID.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1
 
 If no URL is supplied, the launcher uses the legacy international DashScope
-endpoint.  The model defaults to ``qwen3.8-flash`` and can be changed with
+endpoint.  The model defaults to ``qwen3.7-flash-2026-07-15`` to match the
+paper configuration and can be changed with
 ``QWEN_MODEL``.  The selected model must support synchronous Chat Completions,
 non-thinking mode, and JSON Object structured output.
 """
@@ -30,7 +31,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 BENCHMARK_SCRIPT = PROJECT_ROOT / "run_analysis_llm.py"
-DEFAULT_MODEL = "qwen3.8-flash"
+DEFAULT_MODEL = "qwen3.7-flash-2026-07-15"
 LEGACY_INTERNATIONAL_URL = (
     "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
 )

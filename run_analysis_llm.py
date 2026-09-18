@@ -60,14 +60,8 @@ console = Console()
 # Configuration
 # ---------------------------------------------------------------------------
 
-# Temporary fixed setup requested: custom simulations per scenario, 400 steps each.
-SCENARIO_EPISODES = {
-    "S1": 1,
-    "S2": 5,
-    "S3": 5,
-    "S4": 5,
-    "S5": 1,
-}
+# Paper configuration: five valid replications per model-prompt-scenario cell.
+SCENARIO_EPISODES = {scenario: 5 for scenario in VALID_SCENARIOS}
 MAX_STEPS: int = 400
 MAX_WORKERS: int = int(os.getenv("LLM_ANALYSIS_MAX_WORKERS", "1"))
 REJECT_FAILED_EPISODES: bool = os.getenv(

@@ -1,6 +1,6 @@
 """Rule-based agent.
 
-Decision rule (paper eq. 1):
+Decision rule (paper Equation 3):
     Move to the free neighbour with highest food f_max if and only if
         f_max * alpha > f_h + e_i * ft
     where alpha is the risk-propensity gene, f_h is food in the current cell,

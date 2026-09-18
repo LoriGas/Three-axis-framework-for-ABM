@@ -2,7 +2,7 @@
 
 Workflow:
 1. Dataset Generation (parallel) - RB Rand Evo top-5% x 5 scenarios
-2. Supervised Training (parallel) - RB Rand Evo top-5% x 5 layer counts x 5 scenarios
+2. Supervised Training (parallel) - RB Rand Evo top-5% x 3 layer counts x 5 scenarios
 """
 
 import io

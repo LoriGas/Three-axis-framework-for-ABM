@@ -713,7 +713,7 @@ def main() -> None:
     console.print()
     console.print(
         Panel.fit(
-            "[bold white]MASSIVE ANALYSIS[/bold white]\n"
+            "[bold white]BENCHMARK ANALYSIS[/bold white]\n"
             "[dim]Scenarios x agents x layer counts[/dim]",
             border_style="bright_cyan",
             padding=(1, 4),

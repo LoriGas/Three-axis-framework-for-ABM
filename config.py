@@ -93,7 +93,7 @@ class ModelParams:
 
 
 # ---------------------------------------------------------------------------
-# Experimental scenarios  (paper: S1–S5, Table 1)
+# Experimental scenarios  (paper: S1–S5, Table 5)
 # ---------------------------------------------------------------------------
 SCENARIOS: Dict[str, Dict[str, float]] = {
     # Empirical points taken directly from results/explore_scenarios.csv
