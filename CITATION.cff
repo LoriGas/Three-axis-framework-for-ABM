@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its accompanying results, please cite the associated manuscript."
+title: "Three-axis framework for agent-based models"
+type: software
+authors:
+  - family-names: Gastaldo
+    given-names: Lorenzo
+  - family-names: Bertolotti
+    given-names: Francesco
+repository-code: "https://github.com/LoriGas/Three-axis-framework-for-ABM"
+date-released: 2026-09-18
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Gastaldo
+      given-names: Lorenzo
+    - family-names: Bertolotti
+      given-names: Francesco
+  title: "A Framework for Comparing Rule-Based, MLP-Based and LLM-Based Agents in Agent-Based Modelling"
+  year: 2026
